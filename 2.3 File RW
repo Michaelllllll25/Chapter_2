@@ -52,4 +52,5 @@ data["happy"] = False
 with open("jeff_info.json", "w") as f:    # change the true to false
     json.dump(data, f, indent=4)          #   ^
 
-
+with open("append_to_file.txt", "w") as f:               
+    f.write()                                         # Overwrites and entire document to be blank
