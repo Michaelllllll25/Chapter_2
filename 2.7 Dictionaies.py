@@ -44,7 +44,7 @@ print(f"Player health is {player['health']}")
 player["strength"] = 50        # adds strength to player dictionairy
 print(player["strength"])
 
-player["health"] = 90         # changes player health to 90
+player["health"] = 90         # replaces player health to 90
 print(player["health"])
 
 print(player[0])             # prints "why would you"
